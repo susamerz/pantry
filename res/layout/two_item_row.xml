@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="?android:activatedBackgroundIndicator">
+    
+    <TextView
+        android:id="@+id/two_item_row_item1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@+id/Ingredient_name"
+        android:layout_gravity="left"
+        android:layout_weight="1">
+        
+    </TextView>
+    
+    
+     <TextView
+        android:id="@+id/two_item_row_item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/Ingredient_amount"
+        android:layout_gravity="right">
+    </TextView>
+
+    
+
+</LinearLayout>

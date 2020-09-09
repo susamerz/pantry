@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.pantrycook.pantryview.ManualEntryFragment" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pantry_manual_entry" />
+
+    <EditText
+        android:id="@+id/storage_ingredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingredient_entry" />
+
+    <EditText
+        android:id="@+id/storage_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingredient_amount" />
+    
+
+    <EditText
+        android:id="@+id/storage_useby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingredient_useByDate"
+        android:inputType="date" />
+
+    <CheckBox
+        android:id="@+id/noUBbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noUBdate"
+        android:onClick="toggleUBdate" />
+    
+    <LinearLayout style="?android:attr/buttonBarStyle"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+         
+    <Button style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/storage_manual_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/submit"
+        android:onClick="addStorageEntry" 
+        android:layout_gravity="left"
+        />
+    <Button style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/storage_manual_deduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/deduct"
+        android:onClick="removeAmount"
+        android:layout_gravity="right"
+        />
+    
+    </LinearLayout>
+
+    </LinearLayout>

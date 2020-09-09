@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="de.pantrycook.pantryview.StartScreen" >
+    
+    
+     <item
+        android:id="@+id/action_pantry"
+        android:title="@string/action_pantry"
+        app:showAsAction="never"
+        />
+    
+    <item
+        android:id="@+id/action_recipe_list"
+        android:title="@string/action_recipe_list"
+        app:showAsAction="never"
+        />
+    
+     <item
+        android:id="@+id/action_shopping_list"
+        android:title="@string/action_shopping_list"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3" 
+    android:rowCount="8">
+
+ 
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_gravity="left|top"
+        android:layout_row="1"
+        android:layout_rowSpan="3" 
+        android:choiceMode="multipleChoice">
+
+           <!--android:layout_height="404dp"-->
+			<!-- android:layout_width="match_parent" -->
+    </ListView>
+    
+   <Button
+        android:id="@+id/suggest_button"
+        android:layout_width="90dp"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_row="7"
+        android:layout_rowSpan="1"
+        android:hint="@string/suggest" />
+    <Button
+        android:id="@+id/remove_meal"
+        android:layout_width="90dp"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_row="7"
+        android:layout_rowSpan="1"
+        android:hint="@string/meal_remove"
+        android:onClick="removeMeal" />
+
+    <Button
+        android:id="@+id/cook_meal"
+        android:layout_width="90dp"
+        android:layout_column="2"
+        android:layout_columnSpan="1"
+        android:layout_row="7"
+        android:layout_rowSpan="1"
+        android:hint="@string/meal_cook"
+        android:onClick="cookMeal" />
+
+</GridLayout>

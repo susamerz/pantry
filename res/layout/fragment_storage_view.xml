@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<ListView android:id="@id/android:list"
+    android:layout_width="match_parent"
+    android:layout_height="0dp" 
+    android:layout_weight="1"
+    >
+    
+    
+
+</ListView>
+
+<Button 
+    android:id="@+id/manual_add_ingredient"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Manual_add"
+    android:onClick="openManualAdd"
+    android:focusable="false"
+    />
+    
+
+ <TextView
+         android:id="@id/android:empty"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#000000"
+         android:textSize="20sp"
+         android:text="@string/No_data"
+         android:gravity="center_horizontal"
+         android:textColor="#FFFFFF" />
+ </LinearLayout>

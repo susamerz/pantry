@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PantryView</string>
+    <string name="action_settings">Settings</string>
+    <string name="access_recipe_list">Recipes</string>
+    <string name="access_shopping_list">Shopping List</string>
+    <string name="access_pantry">Access the pantry</string>
+    <string name="title_activity_recipe_list">Recipe Book</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_shopping_list">Shopping List</string>
+    <string name="title_activity_pantry_view">Pantry</string>
+	<string name="shopping_list_entry">Add items here</string>
+	<string name="action_shopping_list">Shopping List</string>
+	<string name="action_pantry">Pantry</string>
+	<string name="action_recipe_list">Recipes</string>
+	<string name="ingredient_entry">Enter name of ingredient</string>
+	<string name="ingredient_amount">Enter amount of ingredient</string>
+	<string name="ingredient_useByDate">Enter the use-by date</string>
+	<string name="pantry_manual_entry">Enter an Ingredient manually</string>
+	<string name="submit">submit</string>
+	<string name="No_data">No data found</string>
+	<string name="Manual_add">Add entry</string>
+	<string name="deduct">Remove</string>
+	<string name="noUBdate">No use-by date</string>
+	<string name="viewRecipeButton"> All Recipes </string>
+	<string name="addRecipeSingleButton">Enter Recipe</string>
+	<string name="mealPlan">Meal Plan</string>
+	<string name="recipe_title">Title</string>
+	<string name="recipe_ingredients">Ingredient name	100g</string>
+	<string name="recipe_method">Method</string>
+	<string name="suggest">Suggest recipes</string>
+	<string name="pick_day">Pick a day</string>
+	<string name="meal_remove">Remove selected from plan</string>
+	<string name="meal_cook">Selected meals have been cooked</string>
+	<string name="suggestListTitle">Suggested recipes</string>
+	
+	<string-array
+        name="recipe_dialog">
+        <item>Show recipe</item>
+        <item> Add to Meal Plan</item>
+    </string-array>
+    
+	<string-array name="weekdays_abrev">
+	    <item>Mon</item>
+	    <item >Tue</item>
+	    <item >Wed</item>
+	    <item >Thu</item>
+	    <item >Fri</item>
+	    <item >Sat</item>
+	    <item >Sun</item>
+	</string-array>
+</resources>
